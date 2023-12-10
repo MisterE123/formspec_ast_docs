@@ -1,3 +1,9 @@
+
+# formspec_ast_docs
+AI generated documentation for formspec_ast
+
+The `formspec_ast` mod for Minetest is a library designed to simplify the modification of formspecs. Here's an overview of its API and some examples of how to use it:
+
 1. [API Overview](#api-overview)
 2. [Examples](#examples)
    - [Parsing a Formspec](#parsing-a-formspec)
@@ -56,10 +62,6 @@
 5. [Styling Formspecs](#styling-formspecs)
 
 
-# formspec_ast_docs
-AI generated documentation for formspec_ast
-
-The `formspec_ast` mod for Minetest is a library designed to simplify the modification of formspecs. Here's an overview of its API and some examples of how to use it:
 
 ### API Overview
 
