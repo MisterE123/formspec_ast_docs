@@ -10,7 +10,7 @@ The `formspec_ast` mod for Minetest is a library designed to simplify the modifi
    - [Flattening a Formspec](#flattening-a-formspec)
    - [Unparsing a Formspec](#unparsing-a-formspec)
 3. [Usage](#usage)
-4. [Element Documentation](#element-documentation)
+4. Tree Documentation
    - [anchor](#1-anchor)
    - [animated_image](#2-animated_image)
    - [background](#3-background)
