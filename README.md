@@ -1,5 +1,3 @@
-Here's the Table of Contents for the provided API documentation:
-
 1. [API Overview](#api-overview)
 2. [Examples](#examples)
    - [Parsing a Formspec](#parsing-a-formspec)
