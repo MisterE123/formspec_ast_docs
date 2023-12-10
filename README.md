@@ -1,3 +1,63 @@
+Here's the Table of Contents for the provided API documentation:
+
+1. [API Overview](#api-overview)
+2. [Examples](#examples)
+   - [Parsing a Formspec](#parsing-a-formspec)
+   - [Flattening a Formspec](#flattening-a-formspec)
+   - [Unparsing a Formspec](#unparsing-a-formspec)
+3. [Usage](#usage)
+4. [Element Documentation](#element-documentation)
+   - [anchor](#1-anchor)
+   - [animated_image](#2-animated_image)
+   - [background](#3-background)
+   - [background9](#4-background9)
+   - [bgcolor](#5-bgcolor)
+   - [box](#6-box)
+   - [button](#7-button)
+   - [button_exit](#8-button_exit)
+   - [checkbox](#9-checkbox)
+   - [container](#10-container)
+   - [container_end](#11-container_end)
+   - [dropdown](#12-dropdown)
+   - [field](#13-field)
+   - [field_close_on_enter](#14-field_close_on_enter)
+   - [field_enter_after_edit](#15-field_enter_after_edit)
+   - [formspec_version](#16-formspec_version)
+   - [hypertext](#17-hypertext)
+   - [image](#18-image)
+   - [image_button](#19-image_button)
+   - [image_button_exit](#20-image_button_exit)
+   - [item_image](#21-item_image)
+   - [item_image_button](#22-item_image_button)
+   - [label](#23-label)
+   - [list](#24-list)
+   - [listcolors](#25-listcolors)
+   - [listring](#26-listring)
+   - [model](#27-model)
+   - [no_prepend](#28-no_prepend)
+   - [padding](#29-padding)
+   - [position](#30-position)
+   - [pwdfield](#31-pwdfield)
+   - [real_coordinates](#32-real_coordinates)
+   - [scroll_container](#33-scroll_container)
+   - [scroll_container_end](#34-scroll_container_end)
+   - [scrollbar](#35-scrollbar)
+   - [scrollbaroptions](#36-scrollbaroptions)
+   - [set_focus](#37-set_focus)
+   - [size](#38-size)
+   - [style](#39-style)
+   - [style_type](#40-style_type)
+   - [tabheader](#41-tabheader)
+   - [table](#42-table)
+   - [tablecolumns](#43-tablecolumns)
+   - [tableoptions](#44-tableoptions)
+   - [textarea](#45-textarea)
+   - [textlist](#46-textlist)
+   - [tooltip](#47-tooltip)
+   - [vertlabel](#48-vertlabel)
+5. [Styling Formspecs](#styling-formspecs)
+
+
 # formspec_ast_docs
 AI generated documentation for formspec_ast
 
@@ -50,12 +110,7 @@ print(formspec_ast.unparse(formspec_ast.flatten(tree)))
 ```
 
 ### Usage
-
-To use `formspec_ast`, you typically start by parsing an existing formspec string into an AST. This AST can then be manipulated programmatically, allowing for dynamic changes to the formspec layout and content. Once the desired modifications are made, you can unparse the AST back into a formspec string for use in Minetest.
-
-This mod is particularly useful for developers who need to create or modify complex formspecs dynamically, providing a more structured and manageable approach than manipulating raw formspec strings.
-
-Creating comprehensive documentation for each element in the `formspec_ast` tree, similar to the Minetest formspec API, involves detailing the usage, parameters, and examples for each element. Let's start with some of the elements:
+Tree Documentation
 
 ### 1. `anchor`
 - **Usage**: Defines the anchor point within the formspec.
